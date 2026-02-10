@@ -5,7 +5,7 @@ const Experience = () => {
 
   const data = [
     {
-      period: "Aug 2023 – Present",
+      period: "Aug 2025 – Present",
       title: "Software Engineer – Pragmatiq Solutions",
       description: [
         "Joined as an intern and converted to full-time based on performance and technical growth.",

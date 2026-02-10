@@ -41,7 +41,7 @@ const ContactPage = () => {
           <form onSubmit={Handleform}>
 
             <Input
-              placeholder="Your name"
+              placeholder="Full name"
               type="text"
               className={style.input}
               prefix={<UserOutlined />}
@@ -50,7 +50,7 @@ const ContactPage = () => {
             />
 
             <Input
-              placeholder="Your email"
+              placeholder="Email"
               className={style.input}
               type="email"
               prefix={<MailOutlined />}
@@ -63,7 +63,7 @@ const ContactPage = () => {
 
               <TextArea
                 rows={4}
-                placeholder="Edit your message here"
+                placeholder="Put your thought here"
                 value={msg}
                 className={style.textarea}
                 onChange={(e) => setMsg(e.target.value)}

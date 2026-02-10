@@ -22,7 +22,8 @@ export default function ResourcesLayout({
       <section className={style.rightcontainer}>
         <nav>
           <Link
-            href="/aboutme"
+            href="/about"
+            title='About'
             className={pathname.includes('/aboutme') ? style.active
               : style.inactive}
           >
@@ -31,6 +32,7 @@ export default function ResourcesLayout({
 
           <Link
             href="/projects"
+            title='Projects'
             className={pathname.includes('/projects') ? style.active
               : style.inactive}
           >
@@ -39,6 +41,7 @@ export default function ResourcesLayout({
 
           <Link
             href="/experience"
+            title='Experience'
             className={pathname.includes('/experience') ? style.active
               : style.inactive}
           >
@@ -54,7 +57,8 @@ export default function ResourcesLayout({
           </Link> */}
 
           <Link
-            href="/contactme"
+            href="/contact"
+            title='contact'
             className={pathname.includes('/contactme') ? style.active
               : style.inactive}
           >
