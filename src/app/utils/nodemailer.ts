@@ -127,7 +127,7 @@ export async function SendMail( name :string, to_mail:string ,message:string ) {
     `
 
     const option = {
-        from :`New message detect <${process.env.Email_id}>`,
+        from :`From Varmatec.in <${process.env.Email_id}>`,
         to : "ppvarma07@gmail.com" ,
         subject :  "A Visitor Wants to Connect with You",
         html :Html
