@@ -1,0 +1,61 @@
+.contact_div {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.left_contact_div {
+  width: 40%;
+}
+
+.contact_subdiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 100%;
+}
+
+
+.right_contact_div {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  gap: 12px;
+  width: 60%;
+}
+
+.right_contact_div form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textareaWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  height: 40px;
+}
+
+.textareaIcon {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  z-index: 10;
+  color: #888;
+}
+
+.textarea {
+  padding-left: 34px !important;
+}
+
+
+@media screen and (max-width: 576px) {
+
+  .right_contact_div{
+    width: 80%;
+  }
+}

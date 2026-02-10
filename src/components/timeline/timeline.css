@@ -1,0 +1,80 @@
+/* ===== MAIN CONTAINER ===== */
+.timeline {
+  position: relative;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* ===== VERTICAL LINE ===== */
+.timeline-line {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  width: 2px;
+  height: 100%;
+  border-radius: 7px;
+  background: #888;
+}
+
+/* ===== EACH ITEM ===== */
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* ===== HOLLOW DOT ===== */
+.ongoing {
+  position: absolute;
+  left: -36px;
+  top: 50px;
+
+  width: 14px;
+  height: 14px;
+  background: rgb(255, 0, 0);
+  border-radius: 50%;
+}
+.completed {
+  position: absolute;
+  left: -36px;
+  top: 50px;
+
+  width: 14px;
+  height: 14px;
+  background: rgb(9, 255, 0);
+  border-radius: 50%;
+}
+/* ===== ARROW MARKER ===== */
+.timeline-arrow {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+
+  color: #6d28d9;
+  font-size: 14px;
+}
+
+/* ===== CONTENT ===== */
+
+.timeline-date {
+  color: #888;
+  font-size: 14px;
+}
+
+.timeline-title {
+  color: #6d28d9;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.timeline-desc {
+  margin-top: 6px;
+  color: #333;
+  line-height: 1.6;
+}
+.bullet-points{
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}

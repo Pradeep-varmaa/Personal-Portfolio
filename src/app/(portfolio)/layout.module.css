@@ -1,0 +1,88 @@
+.maincontainer {
+    width: 90%;
+    height: 85vh;
+    margin: 20px auto 0px auto;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    box-shadow: var(--shadow) 0px 5px 15px 0px;
+}
+.maincontainer:hover{
+    box-shadow: var(--shadow) 0px 7px 29px 0px;
+
+}
+.leftcontainer {
+    width: 30%;
+}
+
+.rightcontainer {
+    width: 70%;
+    /* margin: 0px 10px; */
+}
+
+.rightcontainer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 90%;
+}
+
+.active {
+    background-color: #598edc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: auto;
+    align-items: center;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.inactive {
+    color: var(--text);
+    border-radius: 7px 7px 0px 0px;
+    background-color: var(--inactive);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.children{
+    /* box-shadow: var(--shadow) 0px 2px 2px; */
+    height: 80%;
+    border-top: 1.5px solid silver;
+    margin:  0px 30px 30px 30px;
+    /* border-radius: 10px; */
+    padding: 20px;
+    overflow-y: auto; 
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+@media screen and (max-width: 576px) {
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 100%;
+    box-shadow: var(--shadow) 0px 5px 15px 0px;
+
+  }
+  .leftcontainer{
+    width: 100%;
+  }
+  .rightcontainer{
+    width: 100%;
+  }
+  .active{
+    padding: 5px;
+  }
+  .inactive{
+    padding: 5px;
+  }
+  .children{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
