@@ -24,7 +24,7 @@ export default function ResourcesLayout({
           <Link
             href="/about"
             title='About'
-            className={pathname.includes('/aboutme') ? style.active
+            className={pathname.includes('/about') ? style.active
               : style.inactive}
           >
             About me
@@ -58,8 +58,8 @@ export default function ResourcesLayout({
 
           <Link
             href="/contact"
-            title='contact'
-            className={pathname.includes('/contactme') ? style.active
+            title='Contact'
+            className={pathname.includes('/contact') ? style.active
               : style.inactive}
           >
             Contact
