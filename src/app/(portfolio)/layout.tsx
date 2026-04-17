@@ -65,7 +65,6 @@ export default function ResourcesLayout({
             Contact
           </Link>
           <ThemeToggle/>
-
         </nav>
         <div className={style.children}>
           {children}
