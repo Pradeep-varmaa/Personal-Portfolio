@@ -33,20 +33,20 @@ export default function ProjectsPage() {
       status :'completed'
     },
 
-    {
-      period: "2025",
-      title: "Helpexa Platform",
-      description: [
-        "Created a web-based platform to digitalize hostel communication and management processes.",
-        "Implemented a complaint submission module where hostelers can raise issues through the system.",
-        "Developed an admin dashboard to view, manage, and track all registered complaints.",
-        "Enabled status updates such as Pending, In Progress, and Resolved for better transparency and workflow tracking.",
-        "Integrated Nodemailer to send email notifications to students whenever complaint status is updated.",
-        "Built the application using Next.js for frontend & backend APIs and MSSQL for secure data storage.",
-        "Designed a responsive and user-friendly interface for both students and administrators.",
-      ],
-      status :'ongoing'
-    }
+    // {
+    //   period: "2025",
+    //   title: "Helpexa Platform",
+    //   description: [
+    //     "Created a web-based platform to digitalize hostel communication and management processes.",
+    //     "Implemented a complaint submission module where hostelers can raise issues through the system.",
+    //     "Developed an admin dashboard to view, manage, and track all registered complaints.",
+    //     "Enabled status updates such as Pending, In Progress, and Resolved for better transparency and workflow tracking.",
+    //     "Integrated Nodemailer to send email notifications to students whenever complaint status is updated.",
+    //     "Built the application using Next.js for frontend & backend APIs and MSSQL for secure data storage.",
+    //     "Designed a responsive and user-friendly interface for both students and administrators.",
+    //   ],
+    //   status :'ongoing'
+    // }
   ]
 
   return (
